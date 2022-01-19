@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+body{
+    background-color: #E5E5E5;
+}
+.nabar_section{
+    background-color:#0652DD;
+
+     /* border: 2px solid red;  */
+    display: flex;
+}
+.logo_and_con{
+    display: flex;
+    /* border: 2px solid red;  */
+    width: 30%;
+    height:30%;
+    justify-content: right;
+    align-items: center;
+ 
+}
+.logo_and_con img{
+    width: 15%;
+    height:30%;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1{
+    font-size: 40px;
+}
+a,h1{
+    color: lightyellow;
+} 
+.home_bar{
+    display: flex;
+    /* border: 2px solid red;  */
+    width: 50%;
+    /* height: 100%; */
+    justify-content: right;
+    align-items: center;
+}
+.home_bar a{
+    padding: 10px;
+    margin: 5px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.imag_box{
+    width: 25%;
+    height:30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+}
+.imag_box img{
+    width: 20%;
+    margin-right: 50px;
+}
+
+/*plear desin start yer*/
+
+main{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.container{
+    background-color: #fff;
+    width:770px;
+    height: 679px;
+    padding: 30px ;
+
+}
+.secton_titale h3{
+    color: #562EFF;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.player{
+    display: flex;
+    align-items: center;
+   
+}
+.player h3{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 20px;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
